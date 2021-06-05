@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>GithubSearch</title>
+</head>
+
+<body>
+    <nav>
+        <div class="titulo">
+            <h1 class="logo1">Github<strong class="logo2">Search</strong></h1>
+        </div>
+        <div>
+            <form action="#">
+                <input type="text" placeholder="Digite o Usuário." value="" id="nomeUsuario" />
+                <button class="btn"><span class="material-icons">search</span></button>
+            </form>
+        </div>
+    </nav>
+
+    <main>
+        <section class="card">
+            <article class="card_found">
+                <div class="img">
+                    <img id="avatar_url" src="" alt="">
+                </div>
+                <div>
+                    <h2 class="name"></h2>
+                    <h3 class="login"></h3>
+                    <p class="bio"></p>
+                </div>
+                <div class="followers_repo">
+                    <div class="card_followers">
+                        <img src="" alt="" id="people">
+                        <p id="followers"></p>
+                    </div>
+                    <div class="card_repos">
+                        <img src="" alt="" id="class">
+                        <p id="public_repos"></p>
+                    </div>
+                </div>
+            </article>
+            <article id="array_repositorios">
+                
+            </article>
+        </section>
+        <section class="card_not_found">
+            <h4 class="title_not_found"></h4>
+            <p class="subtitle_not_found"></p>
+            <img class="img_not_found" src="" alt="">
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p class='rodape-texto'><span>Desenvolvido por </span><span class='rodape-nome-alunas'>Juliane Andrade, Rafaela França e Talita Carvalho</span>.</p>
+    </footer>
+    <script src='./js/app.js'></script>
+</body>
+
+</html>

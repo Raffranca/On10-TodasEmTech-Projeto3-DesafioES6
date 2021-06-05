@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background: #f8f8f8;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    padding: 1rem 5rem 1rem 1rem;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background: #ffff;
+    align-items: center;
+}
+
+.logo1 {
+    color: #EC9B69;
+    font-size: 30px;
+    height: 100%;
+}
+
+.logo2 {
+    color: #313131;
+}
+
+form {
+    border: 1px solid #dad5d5;
+    padding: 4px;
+    border-radius: 7px;
+    display: flex;
+}
+
+input {
+    border: none;
+    padding: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+}
+
+main {
+    padding: 3rem 2rem 2rem 2rem;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background: #ffff;
+    position: fixed;
+    bottom: 0;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    color: #817b7b;
+    letter-spacing: 0.8px;
+}
+
+.rodape-nome-alunas {
+    color: #EC9B69;
+    font-weight: bolder;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.card_found {
+    display: flex;
+    flex-direction: column;
+    width: 252px;
+    margin: 0 3rem 0 0;
+}
+
+#avatar_url {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.name {
+    color: #EC9B69;
+    font-size: 2rem;
+    padding: 0.4rem 0 0.4rem 0;
+}
+
+.login,
+.bio {
+    font-size: 0.9rem;
+    color: #313131;
+    opacity: 0.5;
+    line-height: 17px;
+}
+
+.bio {
+    padding: 0.7rem 0 0.5rem;
+}
+
+.followers_repo,
+.card_followers,
+.card_repos {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    color: #313131;
+}
+
+.card_followers,
+.card_repos {
+    background: #ffff;
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+
+#followers,
+#public_repos {
+    opacity: 0.5;
+    margin: 0.5rem;
+}
+
+.card_not_found {
+    display: flex;
+    flex-direction: column;
+    width: 542px;
+    margin: 0 auto;
+    font-family: Quicksand;
+    align-items: center;
+}
+
+.title_not_found {
+    color: #EC9B69;
+    font-size: 2.6rem;
+    font-family: Quicksand;
+}
+
+.subtitle_not_found {
+    color: #313131;
+    opacity: 0.5;
+    font-size: 2rem;
+}
+
+.img_not_found {
+    width: 450px;
+}
+
+.off {
+    display: none;
+}
+
+#array_repositorios {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+}
+
+.card-repositorios {
+    background: #FFFFFF;
+    height: 150px;
+    width: 400px;
+    border-radius: 8px;
+    margin: 0 1rem 2rem 1rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    color: #313131;
+    padding: 0.8rem 0.8rem 0.4rem 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title_repositorio {
+    font-size: 1.2rem;
+    padding-bottom: 0.8rem;
+    font-family: Quicksand;
+}
+
+.descricao_repositorio {
+    opacity: 0.5;
+    font-family: Quicksand;
+    max-height: 55px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card_rodape,
+.linguagem,
+.estrelas {
+    display: flex;
+    align-items: center;
+}
+
+.card_rodape {
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+
+.qtd_estrelas,
+.tipo_linguagem {
+    opacity: 0.5;
+    font-family: Quicksand;
+    margin-left: 0.4rem;
+    font-size: 0.9.rem;
+}
+
+.star {
+    color: #FFD813;
+    font-size: 1.2rem;
+}
+
+.circle {
+    font-size: 1.2rem;
+}
+
+.CSS {
+    color: #563D7C;
+}
+
+.Java {
+    color: #FFD813;
+}
+
+.HTML {
+    color: #E34C26;
+}
+
+.Type {
+    color: #2B7489;
+}
+
+.Ruby {
+    color: #701516;
+}
+
+.Java {
+    color: #f59e2d;
+}
+
+.PHP {
+    color: #787CB4;
+}
+
+.Python {
+    color: #3572A5;
+}
+
+.C {
+    color: #555555;
+}
+
+.message_not_repositorio {
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 5rem;
+}
+
